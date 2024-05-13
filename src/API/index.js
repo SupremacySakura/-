@@ -16,7 +16,7 @@ export const addUser = (data) => {
 export const editUser = (data) => {
   return http.post('/user/edit', data)
 }
-export const delUser = (data) => {
+export const deleteUser = (data) => {
   return http.post('/user/del', data)
 }
 
